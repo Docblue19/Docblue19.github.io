@@ -1,0 +1,78 @@
+body{
+	background-color: #FFCCCC;
+	color: #8a8a8a
+	
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #CC3333;
+	color: #FFCCCC;
+	
+}
+header {
+	background-image: url(logo.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	line-height: 400%;
+	text-indent: 1em;
+}
+
+h2{
+background: linear-gradient(#cc3333,#000);
+
+}
+nav a:hover {
+	color: #e23dbe;
+}
+
+nav { float: left; width: 150px; }
+main { margin-left: 150px; }
+
+#wrapper{
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+table{
+	border: 2px solid #000000;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 0.5em;
+	border: 2px solid #000000;
+}
+td {
+	text-align: center;
+}
+
+.text{
+	text-align: left;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #cc3333;
+}
+
+label {
+	float: left;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	margin-left: 140px;
+}
+
